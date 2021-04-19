@@ -1,0 +1,2 @@
+# fakeMoneyDetecter
+monayApp
