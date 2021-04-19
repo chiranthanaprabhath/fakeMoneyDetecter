@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/home">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#99000000"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp">
+
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/clock_arrow"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/logow"
+                    ></ImageView>
+
+            </RelativeLayout>
+            <include layout="@layout/alart_dialog"></include>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginBottom="110dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="Join Us ON"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/camf"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/face"
+                android:layout_centerInParent="true"
+                ></ImageView>
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/gallerys"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/linkedin"></ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/gallesry"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/instagram"></ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/galslery"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/pinte"></ImageView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

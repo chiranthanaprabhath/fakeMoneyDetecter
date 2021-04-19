@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:elevation="5dp"
+        android:layout_centerInParent="true"
+        android:layout_width="70dp"
+        android:id="@+id/topimage"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/greentem"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/checkw"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:elevation="4dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:background="@drawable/boder_login_reg"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/msg"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:text="SUCCESS..!"
+            android:textSize="19dp"></TextView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="match_parent"
+                android:text="OK"
+                android:id="@+id/ok"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:background="@drawable/boder_login_reg"
+                android:backgroundTint="@color/greentem"
+                android:layout_height="30dp"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
